@@ -1,0 +1,17 @@
+
+console: mvn archetype:generate     
+filter: javaee7
+filter: pom-root
+#4
+
+console: mvn archetype:generate
+filter: javaee7
+#6 (ejb)
+
+console: mvn archetype:generate
+filter: javaee7
+#7 (webapp)
+
+console: mvn archetype:generate
+filter: javaee7
+#5 (ear)
